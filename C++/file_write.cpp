@@ -1,0 +1,8 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	FILE *file;
+	file=fopen("temp.txt","w");
+	fprintf(file,"Hello Students!");
+}
